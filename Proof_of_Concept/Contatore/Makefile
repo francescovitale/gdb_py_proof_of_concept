@@ -24,10 +24,10 @@ DEFS       = -D$(MCU_MC)
 DEFS       += -DUSE_DBPRINTF
 
 INCS       = -Iinc
-INCS      += -I../../../Materiale_STM_per_STM32F303/Drivers/CMSIS/Include
-INCS      += -I../../../Materiale_STM_per_STM32F303/Drivers/CMSIS/Device/ST/STM32F3xx/Include
-INCS	  += -I../../../Materiale_STM_per_STM32F303/Drivers/STM32F3xx_HAL_Driver/Inc
-INCS	  += -I../../../Materiale_STM_per_STM32F303/Drivers/BSP/STM32F3-Discovery
+INCS      += -I../../Materiale_STM_per_STM32F303/Drivers/CMSIS/Include
+INCS      += -I../../Materiale_STM_per_STM32F303/Drivers/CMSIS/Device/ST/STM32F3xx/Include
+INCS	  += -I../../Materiale_STM_per_STM32F303/Drivers/STM32F3xx_HAL_Driver/Inc
+INCS	  += -I../../Materiale_STM_per_STM32F303/Drivers/BSP/STM32F3-Discovery
 
 PREFIX     = arm-none-eabi
 CC         = $(PREFIX)-gcc
