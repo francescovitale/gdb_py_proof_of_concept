@@ -1,0 +1,5 @@
+Per compilare il progetto è sufficiente eseguire i seguenti comandi:
+
+1. make clean
+2. make dirs
+3. make
